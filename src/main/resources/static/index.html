@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Doubt Platform (Spring Boot demo)</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <h1>Doubt Platform (Spring Boot)</h1>
+    <div id="auth">
+      <div>
+        <h3>Student login</h3>
+        <input id="student-name" placeholder="Your name (not revealed)" />
+        <button id="student-login">Login as student</button>
+      </div>
+      <hr/>
+      <div>
+        <h3>Trainer login</h3>
+        <input id="trainer-user" placeholder="trainer" value="trainer"/>
+        <input id="trainer-pass" placeholder="pass123" value="pass123"/>
+        <button id="trainer-login">Login as trainer</button>
+      </div>
+    </div>
+
+    <div id="student-view" class="hidden">
+      <h2>Student — Post a doubt (anonymous)</h2>
+      <textarea id="doubt-text" rows="4"></textarea>
+      <button id="post-doubt">Post doubt</button>
+      <div id="student-messages"></div>
+      <button id="logout-student">Logout</button>
+    </div>
+
+    <div id="trainer-view" class="hidden">
+      <h2>Trainer — Groups</h2>
+      <button id="refresh-groups">Refresh</button>
+      <div id="groups"></div>
+      <h3>Anonymized raw</h3>
+      <div id="raw"></div>
+      <button id="logout-trainer">Logout</button>
+    </div>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

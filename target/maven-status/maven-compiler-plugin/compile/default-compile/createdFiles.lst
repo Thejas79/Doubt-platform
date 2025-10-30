@@ -1,0 +1,8 @@
+com\example\doubt\controller\AuthController$StudentLoginResp.class
+com\example\doubt\controller\AuthController$TrainerLogin.class
+com\example\doubt\controller\AuthController$StudentLogin.class
+com\example\doubt\controller\GroupController$MessageDto.class
+com\example\doubt\controller\PostController$CreatePost.class
+com\example\doubt\controller\AuthController$TrainerResp.class
+com\example\doubt\controller\PostController$CreatedResp.class
+com\example\doubt\controller\GroupController$GroupDto.class

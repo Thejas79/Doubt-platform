@@ -1,0 +1,6 @@
+body{font-family:Helvetica,Arial;background:#0b1220;color:#e6eef8;padding:20px}
+.wrap{max-width:900px;margin:0 auto}
+.hidden{display:none}
+input,textarea{width:100%;padding:8px;margin:6px 0;border-radius:6px;border:1px solid #233}
+button{padding:8px 12px;border-radius:6px;background:#1e90ff;border:0;color:#021028;cursor:pointer}
+#groups .group{background:#071426;padding:8px;border-radius:6px;margin-bottom:8px}
